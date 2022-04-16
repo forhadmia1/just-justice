@@ -1,0 +1,15 @@
+.from-container{
+    padding:0 30px;
+    max-width: 400px;
+}
+
+.from-container input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border: 0;
+    border-bottom: 2px solid red;
+}
+.from-container input:focus{
+    outline: none;
+}

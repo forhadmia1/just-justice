@@ -1,23 +1,26 @@
 [
     {
         "id":"1",
-        "name":"service 1",
-        "text":"this is the service of one of the service you can take it now",
-        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
-        "price":"150"
+        "name":"Drinking And Driving",
+        "text":"Civil Disobedience",
+        "picture":"https://i.ibb.co/c6hbQXW/img-1.jpg"
     },
     {
         "id":"2",
-        "name":"service 2",
-        "text":"this is the service of one of the service you can take it now",
-        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
-        "price":"150"
+        "name":"Child Abuse",
+        "text":"Family Law",
+        "picture":"https://i.ibb.co/rt5ndhK/img-3.jpg"
     },
     {
         "id":"3",
-        "name":"service 3",
-        "text":"this is the service of one of the service you can take it now",
-        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
-        "price":"150"
+        "name":"Fraud",
+        "text":"Business Law",
+        "picture":"https://i.ibb.co/2SYmd6g/img-4.jpg"
+    },
+    {
+        "id":"4",
+        "name":"Drug Offences",
+        "text":"Criminal",
+        "picture":"https://i.ibb.co/wwgzSY0/img-2.jpg"
     }
 ]

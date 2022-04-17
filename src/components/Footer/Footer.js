@@ -42,13 +42,13 @@ const Footer = () => {
                     </div>
                     <div className='order-1 order-md-3 mb-4 mb-md-0'>
                         <div className='d-flex gap-5'>
-                            <img height={40} src={facebook} alt="" />
-                            <img height={40} src={linkedin} alt="" />
+                            <a href='https://www.facebook.com/Dr.ForhadHasan' target='_blank' rel="noreferrer noopener"><img height={40} src={facebook} alt="" /></a>
+                            <a href='https://www.linkedin.com/in/md-forhad-mia-94b9781b6/' target='_blank' rel="noreferrer noopener"><img height={40} src={linkedin} alt="" /></a>
                         </div>
                     </div>
                 </div>
             </Container>
-        </footer>
+        </footer >
     );
 };
 

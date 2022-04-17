@@ -68,7 +68,7 @@ const Login = () => {
     return (
         <div className='d-flex justify-content-center mt-5'>
             <div className='from-container'>
-                <h2 className='text-center mb-4'>Login</h2>
+                <h2 className='text-center mb-4 title'>Login</h2>
                 <form onSubmit={handleSignin}>
                     <input ref={emailRef} type="email" name="email" placeholder='Email' required />
                     <input type="password" name="password" placeholder='Enter your password' required />

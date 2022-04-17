@@ -2,6 +2,9 @@
     padding:0 30px;
     max-width: 400px;
 }
+.title{
+    color:#CC8800;
+}
 
 .from-container input{
     width: 100%;

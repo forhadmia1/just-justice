@@ -40,7 +40,7 @@ const Register = () => {
     return (
         <div className='d-flex justify-content-center mt-5'>
             <div className='from-container'>
-                <h2 className='text-center mb-4'>Register</h2>
+                <h2 className='text-center mb-4 title'>Register</h2>
                 <form onSubmit={createNewUser}>
                     <input type="text" name="name" placeholder='Name' required />
                     <input type="email" name="email" placeholder='Email' required />

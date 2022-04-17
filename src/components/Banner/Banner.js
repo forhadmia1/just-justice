@@ -4,14 +4,14 @@ import profile from '../../Assets/Image/profile.png'
 import banner1 from '../../Assets/Image/Banner/law-banner1.jpg'
 import banner2 from '../../Assets/Image/Banner/law-banner2.jpg'
 import banner3 from '../../Assets/Image/Banner/law-banner3.jpg'
+import './Banner.css'
 
 const Banner = () => {
     return (
         <Carousel fade>
             <Carousel.Item>
                 <img
-                    height={450}
-                    className="d-block w-100"
+                    className="d-block w-100 slider-img"
                     src={banner1}
                     alt="First slide"
                 />
@@ -23,15 +23,14 @@ const Banner = () => {
                             <p>CRIMINAL DEFENCE LAWYER</p>
                         </div>
                         <div >
-                            <img className='img-fluid' src={profile} alt="" />
+                            <img className='img-fluid w-75' src={profile} alt="" />
                         </div>
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    height={450}
-                    className="d-block w-100"
+                    className="d-block w-100 slider-img"
                     src={banner2}
                     alt="Second slide"
                 />
@@ -43,8 +42,7 @@ const Banner = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    height={450}
-                    className="d-block w-100"
+                    className="d-block w-100 slider-img"
                     src={banner3}
                     alt="Third slide"
                 />

@@ -14,7 +14,8 @@ const Login = () => {
                     <input type="password" name="password" id="" placeholder='Enter your password' required />
                     <Button className='w-100 mt-3'>Login</Button>
                 </form>
-                <p className='text-center mt-4 '><Link className='text-danger fw-bold text-decoration-none' to={'/register'}>Create an account?</Link></p>
+                <button className='btn btn-link text-danger d-block mx-auto'>Forget password?</button>
+                <p className='text-center mt-2'><Link className='text-danger fw-bold text-decoration-none' to={'/register'}>Create an account?</Link></p>
                 <GoogleSignin />
             </div >
         </div >

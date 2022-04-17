@@ -11,7 +11,7 @@ const Footer = () => {
             <Container className=' mt-2 mt-md-5'>
                 <div className="row row-cols-1 row-cols-md-2">
                     <div className="col">
-                        <h2 className='text-white text-md-start text-center mb-3'>True Lawyer</h2>
+                        <h2 className='text-white text-md-start text-center mb-3'>Just Justice</h2>
                     </div>
                     <div className="col">
                         <div className="row row-cols-2 px-3">

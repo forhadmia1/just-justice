@@ -4,11 +4,18 @@ import { Link } from 'react-router-dom';
 import GoogleSignin from '../GoogleSignign/GoogleSignin';
 
 const Register = () => {
+    const createNewUser = (e) => {
+        e.preventDefault();
+        const name = e.target.name.value;
+        const email = e.target.email.value;
+        const password = e.target.password.value;
+        const confirmPassword = e.target.confirmPassword.value;
+    }
     return (
         <div className='d-flex justify-content-center mt-5'>
             <div className='from-container'>
                 <h2 className='text-center mb-4'>Register</h2>
-                <form action="">
+                <form onSubmit={createNewUser}>
                     <input type="text" name="name" id="" placeholder='Name' required />
                     <input type="email" name="email" id="" placeholder='Email' required />
                     <input type="password" name="password" id="" placeholder='Password' required />

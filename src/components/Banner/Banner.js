@@ -10,6 +10,7 @@ const Banner = () => {
         <Carousel fade>
             <Carousel.Item>
                 <img
+                    height={450}
                     className="d-block w-100"
                     src={banner1}
                     alt="First slide"
@@ -29,6 +30,7 @@ const Banner = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
+                    height={450}
                     className="d-block w-100"
                     src={banner2}
                     alt="Second slide"
@@ -41,6 +43,7 @@ const Banner = () => {
             </Carousel.Item>
             <Carousel.Item>
                 <img
+                    height={450}
                     className="d-block w-100"
                     src={banner3}
                     alt="Third slide"

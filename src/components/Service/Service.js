@@ -1,17 +1,21 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 
-const Service = () => {
+const Service = ({ service }) => {
+    const { name, picture, text, price, id } = service;
+    const navigate = useNavigate();
     return (
         <Col>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={picture} />
                 <Card.Body>
-                    <Card.Title>Card title</Card.Title>
+                    <Card.Title>{name}</Card.Title>
+                    <h4>Price: {price}</h4>
                     <Card.Text>
-                        This is a longer card with supporting text below as a natural
-                        lead-in to additional content. This content is a little bit longer.
+                        {text}
                     </Card.Text>
+                    <Button onClick={() => navigate(`/service/${id}`)}>Book Now</Button>
                 </Card.Body>
             </Card>
         </Col>

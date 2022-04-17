@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand as={Link} to="/">Just Justice</Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" style={{ color: '#CC8800' }} className='fw-bold fs-3'>Just Justice</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto gap-4 align-items-center">

@@ -7,7 +7,7 @@ const Services = () => {
     const [services] = useServices();
     return (
         <div >
-            <h1 className='fw-bold text-center mt-5'>My services</h1>
+            <h1 className='fw-bold text-center mt-5' style={{ color: '#cc8800' }}>My services</h1>
             <Container className='mt-5'>
                 <Row xs={1} md={3} className="g-4">
                     {

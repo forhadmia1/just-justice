@@ -1,5 +1,7 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Button, Card, Col } from 'react-bootstrap';
+import { Card, Col } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import './Service.css'
 
@@ -16,7 +18,7 @@ const Service = ({ service }) => {
                     <Card.Text>
                         {text}
                     </Card.Text>
-                    <Button className='d-block mx-auto px-5 rounded-pill' onClick={() => navigate(`/service/${id}`)}>Book Now</Button>
+                    <button className='d-block mx-auto service-btn rounded-pill' onClick={() => navigate(`/service/${id}`)}>Book Now <FontAwesomeIcon icon={faArrowRight} /></button>
                 </Card.Body>
             </Card>
         </Col>

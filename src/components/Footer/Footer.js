@@ -11,25 +11,25 @@ const Footer = () => {
             <Container className=' mt-2 mt-md-5'>
                 <div className="row row-cols-1 row-cols-md-2">
                     <div className="col">
-                        <h2 className='text-white text-md-start text-center mb-3'>Just Justice</h2>
+                        <h2 className='text-md-start text-center mb-3' style={{ color: '#CC8800' }}>Just Justice</h2>
                     </div>
                     <div className="col">
                         <div className="row row-cols-2 px-3">
                             <div className="col">
-                                <ul className='p-0'>
+                                <ul className='p-0 mt-2 mt-md-5'>
                                     <li className=' list-unstyled fs-6'>
-                                        <Link className='text-decoration-none text-white' to=''>Home</Link>
+                                        <Link className='text-decoration-none text-white' to='/'>Home</Link>
                                     </li>
                                     <li className=' list-unstyled fs-6'>
-                                        <Link className='text-decoration-none text-white' to=''>Blogs</Link>
+                                        <Link className='text-decoration-none text-white' to='/blogs'>Blogs</Link>
                                     </li>
                                     <li className=' list-unstyled fs-6'>
-                                        <Link className='text-decoration-none text-white' to=''>About</Link>
+                                        <Link className='text-decoration-none text-white' to='/about'>About</Link>
                                     </li>
                                 </ul>
                             </div>
                             <div className="col text-white text-end">
-                                <h3>Contact</h3>
+                                <h3 style={{ color: '#CC8800' }}>Contact</h3>
                                 <p>Email: Example@mail.com</p>
                                 <p>Phone: +01717808752</p>
                             </div>

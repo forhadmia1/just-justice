@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "name":"service 1",
+        "text":"this is the service of one of the service you can take it now",
+        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
+        "price":"150"
+    },
+    {
+        "id":"2",
+        "name":"service 2",
+        "text":"this is the service of one of the service you can take it now",
+        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
+        "price":"150"
+    },
+    {
+        "id":"3",
+        "name":"service 3",
+        "text":"this is the service of one of the service you can take it now",
+        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
+        "price":"150"
+    }
+]

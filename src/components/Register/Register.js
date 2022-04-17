@@ -1,7 +1,4 @@
-import { async } from '@firebase/util';
-import { sendEmailVerification } from 'firebase/auth';
 import React, { useState } from 'react';
-import { Button } from 'react-bootstrap';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
@@ -50,7 +47,7 @@ const Register = () => {
                     <input type="password" name="password" placeholder='Password' required />
                     <input type="password" name="confirmPassword" placeholder='Confirm Password' required />
                     <p className='text-center text-danger'>{errormsg}</p>
-                    <Button type='submit' className='w-100 mt-3'>Register</Button>
+                    <button type='submit' className='rounded w-100 mt-3 submit-btn fw-bold'>Register</button>
                 </form>
                 <p className='text-center mt-4 '><Link className='text-danger fw-bold text-decoration-none' to={'/login'}>Already have an account?</Link></p>
                 <GoogleSignin />

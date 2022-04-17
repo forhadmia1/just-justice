@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import googleLogo from '../../Assets/Image/google-logo.png'
 import { useSignInWithGoogle } from "react-firebase-hooks/auth"
 import auth from "../../firebase.init"
+import './GoogleSignin.css'
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const GoogleSignin = () => {
@@ -21,10 +21,10 @@ const GoogleSignin = () => {
 
     return (
         <div className='d-flex justify-content-center mt-4'>
-            <Button onClick={googleSignIn} className='btn-light btn-outline-danger px-4'>
+            <button onClick={googleSignIn} className='px-5 py-1 google-btn rounded-pill'>
                 <img className='me-3' height={30} src={googleLogo} alt="" />
                 SignIn with Google
-            </Button>
+            </button>
         </div>
     );
 };

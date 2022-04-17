@@ -1,26 +1,56 @@
-import React from 'react';
+import { async } from '@firebase/util';
+import { sendEmailVerification } from 'firebase/auth';
+import React, { useState } from 'react';
 import { Button } from 'react-bootstrap';
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
+import auth from '../../firebase.init';
 import GoogleSignin from '../GoogleSignign/GoogleSignin';
 
 const Register = () => {
-    const createNewUser = (e) => {
+    const [errormsg, setErrormsg] = useState('');
+    const [
+        createUserWithEmailAndPassword,
+        user,
+        loading,
+        error,
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
+
+    const [updateProfile, updating, profileError] = useUpdateProfile(auth);
+
+    const createNewUser = async (e) => {
         e.preventDefault();
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
         const confirmPassword = e.target.confirmPassword.value;
+
+        if (password.length < 6) {
+            setErrormsg('Password is too short!')
+            return;
+        }
+
+        if (password !== confirmPassword) {
+            setErrormsg("password didn't match?")
+            return;
+        }
+
+        await createUserWithEmailAndPassword(email, password)
+        await updateProfile({ displayName: name })
     }
+
+    console.log(user)
     return (
         <div className='d-flex justify-content-center mt-5'>
             <div className='from-container'>
                 <h2 className='text-center mb-4'>Register</h2>
                 <form onSubmit={createNewUser}>
-                    <input type="text" name="name" id="" placeholder='Name' required />
-                    <input type="email" name="email" id="" placeholder='Email' required />
-                    <input type="password" name="password" id="" placeholder='Password' required />
-                    <input type="password" name="confirmPassword" id="" placeholder='Confirm Password' required />
-                    <Button className='w-100 mt-3'>Login</Button>
+                    <input type="text" name="name" placeholder='Name' required />
+                    <input type="email" name="email" placeholder='Email' required />
+                    <input type="password" name="password" placeholder='Password' required />
+                    <input type="password" name="confirmPassword" placeholder='Confirm Password' required />
+                    <p className='text-center text-danger'>{errormsg}</p>
+                    <Button type='submit' className='w-100 mt-3'>Register</Button>
                 </form>
                 <p className='text-center mt-4 '><Link className='text-danger fw-bold text-decoration-none' to={'/login'}>Already have an account?</Link></p>
                 <GoogleSignin />

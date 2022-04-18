@@ -8,7 +8,7 @@ const RequireAuth = ({ children }) => {
     if (loading) {
         return <p>Loading....</p>
     }
-    if (!user) {
+    if (!user?.emailVerified) {
         return <Navigate to="/login" state={{ from: location }} replace />;
     }
 

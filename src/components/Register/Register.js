@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import GoogleSignin from '../GoogleSignign/GoogleSignin';
 
@@ -14,6 +14,7 @@ const Register = () => {
     ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
 
     const [updateProfile, updating, profileError] = useUpdateProfile(auth);
+    const navigate = useNavigate();
 
     const createNewUser = async (e) => {
         e.preventDefault();
@@ -34,6 +35,8 @@ const Register = () => {
 
         await createUserWithEmailAndPassword(email, password)
         await updateProfile({ displayName: name })
+        navigate('/')
+
     }
 
     console.log(user)

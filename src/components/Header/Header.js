@@ -21,7 +21,7 @@ const Header = () => {
                         <CustomLink className="text-decoration-none" to="/">Home</CustomLink>
                         <CustomLink className="text-decoration-none" to="/blogs">Blogs</CustomLink>
                         <CustomLink className="text-decoration-none" to="/about">About</CustomLink>
-                        {!user ?
+                        {!user?.emailVerified ?
                             <CustomLink className="text-decoration-none" to="login">Login</CustomLink>
                             :
                             <button onClick={handleSignout} className='btn btn-link text-white text-decoration-none'>SignOut</button>

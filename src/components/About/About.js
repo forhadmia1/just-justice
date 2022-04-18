@@ -7,7 +7,7 @@ const About = () => {
         <Container className='mt-3 mt-md-5'>
             <Row xs={1} md={2} className='align-items-center'>
                 <Col>
-                    <img className='img-fluid bg-info rounded' src={thumb_pic} alt="" />
+                    <img className='img-fluid bg-info rounded shadow-lg' src={thumb_pic} alt="" />
                 </Col>
                 <Col>
                     <div className='p-2'>

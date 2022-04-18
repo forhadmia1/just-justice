@@ -7,7 +7,7 @@ const Blogs = () => {
             <h1 className='text-center my-4'>Bolgs</h1>
             <Row xs={1} md={1} className="g-4">
                 <Col>
-                    <Card>
+                    <Card className='shadow'>
                         <Card.Body>
                             <Card.Title>1. Difference between authorization and authentication?</Card.Title>
                             <div className='d-md-flex justify-content-around '>
@@ -28,7 +28,7 @@ const Blogs = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className='shadow'>
                         <Card.Body>
                             <Card.Title>2. Why are you using firebase? What other options do you have to implement authentication?</Card.Title>
                             <div>
@@ -46,7 +46,7 @@ const Blogs = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card>
+                    <Card className='shadow'>
                         <Card.Body>
                             <Card.Title>3. What other services does firebase provide other than authentication?</Card.Title>
                             <div>

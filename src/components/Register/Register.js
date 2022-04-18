@@ -39,7 +39,6 @@ const Register = () => {
 
     }
 
-    console.log(user)
     return (
         <div className='d-flex justify-content-center mt-5'>
             <div className='from-container'>

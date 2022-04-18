@@ -11,7 +11,6 @@
 - in service card add hover effect
 - booking page is in protected route.
 - the page is show after log in.
-- only the user who are verified their email. they can login.
 
 ## Technologies:
 

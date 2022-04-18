@@ -30,7 +30,7 @@ const Footer = () => {
                             </div>
                             <div className="col text-white text-end">
                                 <h3 style={{ color: '#CC8800' }}>Contact</h3>
-                                <p>Email: forhad8613@gmail.com</p>
+                                <p>Email: forhad8613@ gmail.com</p>
                                 <p>Phone: +12099216581</p>
                             </div>
                         </div>

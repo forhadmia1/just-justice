@@ -10,7 +10,7 @@ const Blogs = () => {
                     <Card>
                         <Card.Body>
                             <Card.Title>1. Difference between authorization and authentication?</Card.Title>
-                            <div className='d-flex justify-content-around'>
+                            <div className='d-md-flex justify-content-around '>
                                 <div>
                                     <p className='fw-bold'>Authentication:</p>
                                     <p>1. its verifies the user who he is.</p>

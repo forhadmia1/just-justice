@@ -18,8 +18,8 @@ const Banner = () => {
                 <Carousel.Caption>
                     <div className='d-flex justify-content-between align-items-end'>
                         <div className='text-start'>
-                            <h2>Hello</h2>
-                            <h3>I AM MIKE HENDRICKS</h3>
+                            <h2 className='banner-title'>Hello</h2>
+                            <h3 className='banner-title'>I AM Jesica</h3>
                             <p>CRIMINAL DEFENCE LAWYER</p>
                         </div>
                         <div >
@@ -36,7 +36,7 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>High Quality Law Advice And Support You Can Affor</h3>
+                    <h3 className='banner-title'>High Quality Law Advice And Support You Can Affort</h3>
                     <p>We strongly believe that everyone deserves equal rights</p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -48,9 +48,9 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Emergency Service</h3>
+                    <h3 className='banner-title'>Emergency Service</h3>
                     <h4>24 Hours a Day, 7 Days a Week</h4>
-                    <h1>+8801717808752</h1>
+                    <h4>+12099216581</h4>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

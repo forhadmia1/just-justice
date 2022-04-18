@@ -2,22 +2,22 @@
     {
         "id":"1",
         "name":"Immigration Law",
-        "text":"this is the service of one of the service you can take it now",
-        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
-        "price":"150"
+        "text":"I will help you to overcome all imigration related issues.",
+        "picture":"https://img.freepik.com/free-vector/immigration-abstract-concept-vector-illustration-international-movement-people-residence-permit-working-visa-boarding-control-sign-documents-passport-green-card-abstract-metaphor_335657-3976.jpg?t=st=1650265150~exp=1650265750~hmac=2e4ba9a8944b0d09440dd38650a245b88bad88484d88558c1a2b66db4447297b&w=740",
+        "price":"200"
     },
     {
         "id":"2",
         "name":"Criminal Law",
-        "text":"this is the service of one of the service you can take it now",
-        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
-        "price":"150"
+        "text":"investigate and find all possible requirement for your case and try to release victim.",
+        "picture":"https://img.freepik.com/free-vector/prison-jail-isometric-composition-with-taking-front-view-mug-shot-police-photograph-arrested-criminal-illustration_1284-31170.jpg?t=st=1650265504~exp=1650266104~hmac=ff96b863ee2f058b895b0f5b71e00a2c1feb6aea4eb68ca4285f6db84e751da6&w=740",
+        "price":"350"
     },
     {
         "id":"3",
         "name":"Familly Law",
-        "text":"this is the service of one of the service you can take it now",
-        "picture":"https://img.freepik.com/free-photo/court-hammer-books-judgment-law-concept_144627-30461.jpg?t=st=1650141016~exp=1650141616~hmac=f7036d8f445deff544fd09e1cd82cf95778ed087c6446ffddbbe04ece4f8b74c&w=740",
-        "price":"150"
+        "text":"I provide all family issues like family property issue, divorse and others.",
+        "picture":"https://img.freepik.com/free-vector/matrimonial-law-abstract-concept-vector-illustration-family-law-matrimonial-property-child-custody-divorce-decree-scales-justice-sign-document-judges-gavel-agreement-abstract-metaphor_335657-4210.jpg?t=st=1650265362~exp=1650265962~hmac=070982c60817d3dcd12db2d51be68fb4a311a717b50574cc4c8097c0a1d325bf&w=740",
+        "price":"300"
     }
 ]

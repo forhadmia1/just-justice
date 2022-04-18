@@ -14,7 +14,7 @@ const Service = ({ service }) => {
                 <Card.Img variant="top" src={picture} />
                 <Card.Body>
                     <Card.Title className='fs-4'>{name}</Card.Title>
-                    <h6>Price: {price}</h6>
+                    <h6>Price: ${price}</h6>
                     <Card.Text>
                         {text}
                     </Card.Text>

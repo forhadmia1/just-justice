@@ -1,7 +1,9 @@
 .slider-img{
     height: 500px;
 }
-
+.banner-title{
+    color: #CC8800;
+}
 @media only screen  and (max-width:600px){
     .slider-img{
         height: 250px;

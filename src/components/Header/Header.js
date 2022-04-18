@@ -12,7 +12,7 @@ const Header = () => {
         signOut(auth)
     }
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top'>
             <Container>
                 <Navbar.Brand as={Link} to="/" style={{ color: '#CC8800' }} className='fw-bold fs-3'>Just Justice</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

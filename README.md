@@ -1,6 +1,6 @@
 # Website name: Just Justice
 
-### Live site Link: [https://just-justice.firebaseapp.com/](https://just-justice.firebaseapp.com/)
+### Live site Link: [https://just-justice.web.app/](https://just-justice.web.app/)
 
 ## Feature and Functionality:
 
